@@ -4,7 +4,7 @@
     String pwd = request.getParameter("password");
     String email = request.getParameter("email");
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/belajar",
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jsp_logreg",
             "root", "");
     Statement st = con.createStatement();
     //ResultSet rs;
